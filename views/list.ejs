@@ -1,0 +1,21 @@
+<%- include('header') -%>
+<div class="box" id="heading">
+    <h1><%=listTitle%></h1>
+    </div>
+    <div class="box">
+        <%for(key in newListItem ) {%>
+            <div class="item"> 
+            <form method="post" action="/delete">
+                <input type="hidden" name="listName" value="<%=listTitle%>">
+                <input type="checkbox" name="checkbox" onchange="this.form.submit()" value="<%=newListItem[key]['_id']%>">
+            </form>
+            <p><%=newListItem[key]['name']%></p>
+        </div>
+        <%}%>
+        
+        <form action="/" method="post" >
+            <input type="text" name="campo" placeholder="New Item" autocomplete="off">
+            <button type="submit" name="button" value="<%=listTitle%>">+</button>
+        </form>
+    </div>
+<%- include('footer') -%>

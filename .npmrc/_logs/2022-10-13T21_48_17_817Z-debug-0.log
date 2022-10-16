@@ -1,0 +1,45 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.1
+2 info using node@v14.20.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 11ms
+6 timing config:load:builtin Completed in 11ms
+7 timing config:load:cli Completed in 6ms
+8 timing config:load:env Completed in 1ms
+9 verbose config error loading project config [Error: EISDIR: illegal operation on a directory, read] {
+9 verbose config   errno: -21,
+9 verbose config   code: 'EISDIR',
+9 verbose config   syscall: 'read'
+9 verbose config }
+10 timing config:load:file:/home/harley/Área de Trabalho/todolist-v1/.npmrc Completed in 7ms
+11 timing config:load:project Completed in 9ms
+12 timing config:load:file:/home/harley/.npmrc Completed in 2ms
+13 timing config:load:user Completed in 3ms
+14 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+15 timing config:load:global Completed in 0ms
+16 timing config:load:validate Completed in 1ms
+17 timing config:load:credentials Completed in 1ms
+18 timing config:load:setEnvs Completed in 3ms
+19 timing config:load Completed in 41ms
+20 timing npm:load:configload Completed in 41ms
+21 timing npm:load:mkdirpcache Completed in 1ms
+22 timing npm:load:mkdirplogs Completed in 0ms
+23 verbose title npm view mongoose description dist-tags.latest homepage version
+24 verbose argv "view" "--json" "mongoose" "description" "dist-tags.latest" "homepage" "version"
+25 timing npm:load:setTitle Completed in 6ms
+26 timing config:load:flatten Completed in 9ms
+27 timing npm:load:display Completed in 10ms
+28 verbose logfile logs-max:10 dir:/home/harley/Área de Trabalho/todolist-v1/.npmrc/_logs
+29 verbose logfile /home/harley/Área de Trabalho/todolist-v1/.npmrc/_logs/2022-10-13T21_48_17_817Z-debug-0.log
+30 timing npm:load:logFile Completed in 12ms
+31 timing npm:load:timers Completed in 0ms
+32 timing npm:load:configScope Completed in 1ms
+33 timing npm:load Completed in 73ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 http fetch GET 200 https://registry.npmjs.org/mongoose 523ms (cache revalidated)
+37 timing command:view Completed in 722ms
+38 verbose exit 0
+39 timing npm Completed in 819ms
+40 info ok

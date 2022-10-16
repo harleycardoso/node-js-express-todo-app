@@ -1,0 +1,391 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.1
+2 info using node@v14.20.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 19ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 6ms
+8 timing config:load:env Completed in 1ms
+9 verbose config error loading project config [Error: EISDIR: illegal operation on a directory, read] {
+9 verbose config   errno: -21,
+9 verbose config   code: 'EISDIR',
+9 verbose config   syscall: 'read'
+9 verbose config }
+10 timing config:load:file:/home/harley/Área de Trabalho/todolist-v1/.npmrc Completed in 5ms
+11 timing config:load:project Completed in 9ms
+12 timing config:load:file:/home/harley/.npmrc Completed in 78ms
+13 timing config:load:user Completed in 79ms
+14 timing config:load:file:/usr/etc/npmrc Completed in 1ms
+15 timing config:load:global Completed in 1ms
+16 timing config:load:validate Completed in 5ms
+17 timing config:load:credentials Completed in 27ms
+18 timing config:load:setEnvs Completed in 5ms
+19 timing config:load Completed in 157ms
+20 timing npm:load:configload Completed in 157ms
+21 timing npm:load:mkdirpcache Completed in 3ms
+22 timing npm:load:mkdirplogs Completed in 17ms
+23 verbose title npm i mongoose
+24 verbose argv "i" "mongoose"
+25 timing npm:load:setTitle Completed in 3ms
+26 timing config:load:flatten Completed in 5ms
+27 timing npm:load:display Completed in 9ms
+28 verbose logfile logs-max:10 dir:/home/harley/Área de Trabalho/todolist-v1/.npmrc/_logs
+29 verbose logfile /home/harley/Área de Trabalho/todolist-v1/.npmrc/_logs/2022-10-13T21_47_58_026Z-debug-0.log
+30 timing npm:load:logFile Completed in 25ms
+31 timing npm:load:timers Completed in 0ms
+32 timing npm:load:configScope Completed in 0ms
+33 timing npm:load Completed in 218ms
+34 timing arborist:ctor Completed in 1ms
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 354ms
+37 timing idealTree:userRequests Completed in 3ms
+38 silly idealTree buildDeps
+39 silly fetch manifest mongoose@*
+40 timing arborist:ctor Completed in 1ms
+41 http fetch GET 200 https://registry.npmjs.org/mongoose 1055ms (cache miss)
+42 silly placeDep ROOT mongoose@6.6.5 OK for: todolist-v1@1.0.0 want: *
+43 silly fetch manifest bson@^4.6.5
+44 silly fetch manifest kareem@2.4.1
+45 silly fetch manifest mongodb@4.9.1
+46 silly fetch manifest mpath@0.9.0
+47 silly fetch manifest mquery@4.0.3
+48 silly fetch manifest ms@2.1.3
+49 silly fetch manifest sift@16.0.0
+50 http fetch GET 200 https://registry.npmjs.org/bson 341ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/mpath 373ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/sift 433ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/mongodb 445ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/kareem 472ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/mquery 484ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/ms 515ms (cache revalidated)
+57 timing idealTree:#root Completed in 1618ms
+58 silly placeDep ROOT bson@4.7.0 OK for: mongoose@6.6.5 want: ^4.6.5
+59 silly placeDep ROOT kareem@2.4.1 OK for: mongoose@6.6.5 want: 2.4.1
+60 silly placeDep ROOT mongodb@4.9.1 OK for: mongoose@6.6.5 want: 4.9.1
+61 silly placeDep ROOT mpath@0.9.0 OK for: mongoose@6.6.5 want: 0.9.0
+62 silly placeDep ROOT mquery@4.0.3 OK for: mongoose@6.6.5 want: 4.0.3
+63 silly placeDep node_modules/mongoose ms@2.1.3 OK for: mongoose@6.6.5 want: 2.1.3
+64 silly placeDep ROOT sift@16.0.0 OK for: mongoose@6.6.5 want: 16.0.0
+65 silly fetch manifest buffer@^5.6.0
+66 silly fetch manifest denque@^2.1.0
+67 silly fetch manifest mongodb-connection-string-url@^2.5.3
+68 silly fetch manifest socks@^2.7.0
+69 silly fetch manifest saslprep@^1.0.3
+70 silly fetch manifest debug@4.x
+71 http fetch GET 200 https://registry.npmjs.org/denque 118ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/saslprep 117ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/mongodb-connection-string-url 130ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/socks 144ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/buffer 199ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/debug 261ms (cache revalidated)
+77 timing idealTree:node_modules/mongoose Completed in 319ms
+78 silly placeDep ROOT buffer@5.7.1 OK for: bson@4.7.0 want: ^5.6.0
+79 silly fetch manifest base64-js@^1.3.1
+80 silly fetch manifest ieee754@^1.1.13
+81 http fetch GET 200 https://registry.npmjs.org/base64-js 100ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/ieee754 336ms (cache miss)
+83 timing idealTree:node_modules/bson Completed in 367ms
+84 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@5.7.1 want: ^1.3.1
+85 silly placeDep ROOT ieee754@1.2.1 OK for: buffer@5.7.1 want: ^1.1.13
+86 timing idealTree:node_modules/buffer Completed in 19ms
+87 timing idealTree:node_modules/base64-js Completed in 0ms
+88 timing idealTree:node_modules/ieee754 Completed in 0ms
+89 timing idealTree:node_modules/kareem Completed in 0ms
+90 silly placeDep ROOT denque@2.1.0 OK for: mongodb@4.9.1 want: ^2.1.0
+91 silly placeDep ROOT mongodb-connection-string-url@2.5.4 OK for: mongodb@4.9.1 want: ^2.5.3
+92 silly placeDep ROOT saslprep@1.0.3 OK for: mongodb@4.9.1 want: ^1.0.3
+93 silly placeDep ROOT socks@2.7.1 OK for: mongodb@4.9.1 want: ^2.7.0
+94 silly fetch manifest @types/whatwg-url@^8.2.1
+95 silly fetch manifest whatwg-url@^11.0.0
+96 silly fetch manifest sparse-bitfield@^3.0.3
+97 silly fetch manifest ip@^2.0.0
+98 silly fetch manifest smart-buffer@^4.2.0
+99 http fetch GET 200 https://registry.npmjs.org/ip 211ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/whatwg-url 217ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/smart-buffer 219ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/@types%2fwhatwg-url 237ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/sparse-bitfield 462ms (cache miss)
+104 timing idealTree:node_modules/mongodb Completed in 489ms
+105 timing idealTree:node_modules/denque Completed in 0ms
+106 silly placeDep ROOT @types/whatwg-url@8.2.2 OK for: mongodb-connection-string-url@2.5.4 want: ^8.2.1
+107 silly placeDep ROOT whatwg-url@11.0.0 OK for: mongodb-connection-string-url@2.5.4 want: ^11.0.0
+108 silly fetch manifest @types/node@*
+109 silly fetch manifest @types/webidl-conversions@*
+110 silly fetch manifest tr46@^3.0.0
+111 silly fetch manifest webidl-conversions@^7.0.0
+112 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 153ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/@types%2fwebidl-conversions 160ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/tr46 175ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 496ms (cache miss)
+116 timing idealTree:node_modules/mongodb-connection-string-url Completed in 539ms
+117 silly placeDep ROOT @types/node@18.8.5 OK for: @types/whatwg-url@8.2.2 want: *
+118 silly placeDep ROOT @types/webidl-conversions@7.0.0 OK for: @types/whatwg-url@8.2.2 want: *
+119 timing idealTree:node_modules/@types/whatwg-url Completed in 9ms
+120 timing idealTree:node_modules/@types/node Completed in 0ms
+121 timing idealTree:node_modules/@types/webidl-conversions Completed in 0ms
+122 timing idealTree:node_modules/mpath Completed in 0ms
+123 silly placeDep node_modules/mquery debug@4.3.4 OK for: mquery@4.0.3 want: 4.x
+124 silly fetch manifest ms@2.1.2
+125 timing idealTree:node_modules/mquery Completed in 5ms
+126 silly placeDep ROOT sparse-bitfield@3.0.3 OK for: saslprep@1.0.3 want: ^3.0.3
+127 silly fetch manifest memory-pager@^1.0.2
+128 http fetch GET 200 https://registry.npmjs.org/memory-pager 121ms (cache miss)
+129 timing idealTree:node_modules/saslprep Completed in 127ms
+130 timing idealTree:node_modules/sift Completed in 0ms
+131 silly placeDep ROOT ip@2.0.0 OK for: socks@2.7.1 want: ^2.0.0
+132 silly placeDep ROOT smart-buffer@4.2.0 OK for: socks@2.7.1 want: ^4.2.0
+133 timing idealTree:node_modules/socks Completed in 7ms
+134 timing idealTree:node_modules/ip Completed in 0ms
+135 timing idealTree:node_modules/smart-buffer Completed in 0ms
+136 silly placeDep ROOT memory-pager@1.5.0 OK for: sparse-bitfield@3.0.3 want: ^1.0.2
+137 timing idealTree:node_modules/sparse-bitfield Completed in 5ms
+138 timing idealTree:node_modules/memory-pager Completed in 0ms
+139 silly placeDep ROOT tr46@3.0.0 OK for: whatwg-url@11.0.0 want: ^3.0.0
+140 silly placeDep ROOT webidl-conversions@7.0.0 OK for: whatwg-url@11.0.0 want: ^7.0.0
+141 silly fetch manifest punycode@^2.1.1
+142 http fetch GET 200 https://registry.npmjs.org/punycode 309ms (cache miss)
+143 timing idealTree:node_modules/whatwg-url Completed in 321ms
+144 silly placeDep ROOT punycode@2.1.1 OK for: tr46@3.0.0 want: ^2.1.1
+145 timing idealTree:node_modules/tr46 Completed in 5ms
+146 timing idealTree:node_modules/punycode Completed in 0ms
+147 timing idealTree:node_modules/webidl-conversions Completed in 0ms
+148 timing idealTree:node_modules/mongoose/node_modules/ms Completed in 0ms
+149 silly placeDep node_modules/mquery ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+150 timing idealTree:node_modules/mquery/node_modules/debug Completed in 9ms
+151 timing idealTree:node_modules/mquery/node_modules/ms Completed in 0ms
+152 timing idealTree:buildDeps Completed in 3851ms
+153 timing idealTree:fixDepFlags Completed in 5ms
+154 timing idealTree Completed in 4228ms
+155 timing reify:loadTrees Completed in 4230ms
+156 timing reify:diffTrees Completed in 175ms
+157 silly reify moves {}
+158 timing reify:retireShallow Completed in 2ms
+159 timing reify:createSparse Completed in 119ms
+160 timing reify:loadBundles Completed in 0ms
+161 silly audit bulk request {
+161 silly audit   accepts: [ '1.3.8' ],
+161 silly audit   'ansi-styles': [ '4.3.0' ],
+161 silly audit   'array-flatten': [ '1.1.1' ],
+161 silly audit   async: [ '3.2.4' ],
+161 silly audit   'balanced-match': [ '1.0.2' ],
+161 silly audit   'body-parser': [ '1.20.1', '1.20.0' ],
+161 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+161 silly audit   bytes: [ '3.1.2' ],
+161 silly audit   'call-bind': [ '1.0.2' ],
+161 silly audit   chalk: [ '4.1.2' ],
+161 silly audit   'color-convert': [ '2.0.1' ],
+161 silly audit   'color-name': [ '1.1.4' ],
+161 silly audit   'concat-map': [ '0.0.1' ],
+161 silly audit   'content-disposition': [ '0.5.4' ],
+161 silly audit   'content-type': [ '1.0.4' ],
+161 silly audit   cookie: [ '0.5.0' ],
+161 silly audit   'cookie-signature': [ '1.0.6' ],
+161 silly audit   debug: [ '2.6.9', '4.3.4' ],
+161 silly audit   depd: [ '2.0.0' ],
+161 silly audit   destroy: [ '1.2.0' ],
+161 silly audit   'ee-first': [ '1.1.1' ],
+161 silly audit   ejs: [ '3.1.8' ],
+161 silly audit   encodeurl: [ '1.0.2' ],
+161 silly audit   'escape-html': [ '1.0.3' ],
+161 silly audit   etag: [ '1.8.1' ],
+161 silly audit   express: [ '4.18.1' ],
+161 silly audit   qs: [ '6.10.3', '6.11.0' ],
+161 silly audit   filelist: [ '1.0.4' ],
+161 silly audit   minimatch: [ '5.1.0', '3.1.2' ],
+161 silly audit   finalhandler: [ '1.2.0' ],
+161 silly audit   forwarded: [ '0.2.0' ],
+161 silly audit   fresh: [ '0.5.2' ],
+161 silly audit   'function-bind': [ '1.1.1' ],
+161 silly audit   'get-intrinsic': [ '1.1.3' ],
+161 silly audit   has: [ '1.0.3' ],
+161 silly audit   'has-flag': [ '4.0.0' ],
+161 silly audit   'has-symbols': [ '1.0.3' ],
+161 silly audit   'http-errors': [ '2.0.0' ],
+161 silly audit   'iconv-lite': [ '0.4.24' ],
+161 silly audit   inherits: [ '2.0.4' ],
+161 silly audit   'ipaddr.js': [ '1.9.1' ],
+161 silly audit   jake: [ '10.8.5' ],
+161 silly audit   'media-typer': [ '0.3.0' ],
+161 silly audit   'merge-descriptors': [ '1.0.1' ],
+161 silly audit   methods: [ '1.1.2' ],
+161 silly audit   mime: [ '1.6.0' ],
+161 silly audit   'mime-db': [ '1.52.0' ],
+161 silly audit   'mime-types': [ '2.1.35' ],
+161 silly audit   mogoose: [ '0.0.1-security' ],
+161 silly audit   ms: [ '2.0.0', '2.1.3', '2.1.2' ],
+161 silly audit   negotiator: [ '0.6.3' ],
+161 silly audit   'object-inspect': [ '1.12.2' ],
+161 silly audit   'on-finished': [ '2.4.1' ],
+161 silly audit   parseurl: [ '1.3.3' ],
+161 silly audit   'path-to-regexp': [ '0.1.7' ],
+161 silly audit   'proxy-addr': [ '2.0.7' ],
+161 silly audit   'range-parser': [ '1.2.1' ],
+161 silly audit   'raw-body': [ '2.5.1' ],
+161 silly audit   'safe-buffer': [ '5.2.1' ],
+161 silly audit   'safer-buffer': [ '2.1.2' ],
+161 silly audit   send: [ '0.18.0' ],
+161 silly audit   'serve-static': [ '1.15.0' ],
+161 silly audit   setprototypeof: [ '1.2.0' ],
+161 silly audit   'side-channel': [ '1.0.4' ],
+161 silly audit   statuses: [ '2.0.1' ],
+161 silly audit   'supports-color': [ '7.2.0' ],
+161 silly audit   toidentifier: [ '1.0.1' ],
+161 silly audit   'type-is': [ '1.6.18' ],
+161 silly audit   unpipe: [ '1.0.0' ],
+161 silly audit   'utils-merge': [ '1.0.1' ],
+161 silly audit   vary: [ '1.1.2' ],
+161 silly audit   mongoose: [ '6.6.5' ],
+161 silly audit   bson: [ '4.7.0' ],
+161 silly audit   kareem: [ '2.4.1' ],
+161 silly audit   mongodb: [ '4.9.1' ],
+161 silly audit   mpath: [ '0.9.0' ],
+161 silly audit   mquery: [ '4.0.3' ],
+161 silly audit   sift: [ '16.0.0' ],
+161 silly audit   buffer: [ '5.7.1' ],
+161 silly audit   'base64-js': [ '1.5.1' ],
+161 silly audit   ieee754: [ '1.2.1' ],
+161 silly audit   denque: [ '2.1.0' ],
+161 silly audit   'mongodb-connection-string-url': [ '2.5.4' ],
+161 silly audit   saslprep: [ '1.0.3' ],
+161 silly audit   socks: [ '2.7.1' ],
+161 silly audit   '@types/whatwg-url': [ '8.2.2' ],
+161 silly audit   'whatwg-url': [ '11.0.0' ],
+161 silly audit   '@types/node': [ '18.8.5' ],
+161 silly audit   '@types/webidl-conversions': [ '7.0.0' ],
+161 silly audit   'sparse-bitfield': [ '3.0.3' ],
+161 silly audit   ip: [ '2.0.0' ],
+161 silly audit   'smart-buffer': [ '4.2.0' ],
+161 silly audit   'memory-pager': [ '1.5.0' ],
+161 silly audit   tr46: [ '3.0.0' ],
+161 silly audit   'webidl-conversions': [ '7.0.0' ],
+161 silly audit   punycode: [ '2.1.1' ]
+161 silly audit }
+162 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz. Extracting by manifest.
+163 silly tarball no local data for memory-pager@https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz. Extracting by manifest.
+164 silly tarball no local data for punycode@https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz. Extracting by manifest.
+165 silly tarball no local data for sparse-bitfield@https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz. Extracting by manifest.
+166 silly tarball no local data for @types/webidl-conversions@https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.0.tgz. Extracting by manifest.
+167 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-3.0.0.tgz. Extracting by manifest.
+168 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-11.0.0.tgz. Extracting by manifest.
+169 silly tarball no local data for ip@https://registry.npmjs.org/ip/-/ip-2.0.0.tgz. Extracting by manifest.
+170 silly tarball no local data for smart-buffer@https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz. Extracting by manifest.
+171 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.8.5.tgz. Extracting by manifest.
+172 silly tarball no local data for socks@https://registry.npmjs.org/socks/-/socks-2.7.1.tgz. Extracting by manifest.
+173 silly tarball no local data for mongodb-connection-string-url@https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.5.4.tgz. Extracting by manifest.
+174 silly tarball no local data for denque@https://registry.npmjs.org/denque/-/denque-2.1.0.tgz. Extracting by manifest.
+175 silly tarball no local data for ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz. Extracting by manifest.
+176 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz. Extracting by manifest.
+177 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz. Extracting by manifest.
+178 silly tarball no local data for sift@https://registry.npmjs.org/sift/-/sift-16.0.0.tgz. Extracting by manifest.
+179 silly tarball no local data for mpath@https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz. Extracting by manifest.
+180 silly tarball no local data for @types/whatwg-url@https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-8.2.2.tgz. Extracting by manifest.
+181 silly tarball no local data for bson@https://registry.npmjs.org/bson/-/bson-4.7.0.tgz. Extracting by manifest.
+182 silly tarball no local data for saslprep@https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz. Extracting by manifest.
+183 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.4.tgz. Extracting by manifest.
+184 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+185 silly tarball no local data for mongodb@https://registry.npmjs.org/mongodb/-/mongodb-4.9.1.tgz. Extracting by manifest.
+186 silly tarball no local data for kareem@https://registry.npmjs.org/kareem/-/kareem-2.4.1.tgz. Extracting by manifest.
+187 silly tarball no local data for mongoose@https://registry.npmjs.org/mongoose/-/mongoose-6.6.5.tgz. Extracting by manifest.
+188 silly tarball no local data for mquery@https://registry.npmjs.org/mquery/-/mquery-4.0.3.tgz. Extracting by manifest.
+189 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 448ms
+190 timing auditReport:getReport Completed in 459ms
+191 silly audit report {}
+192 timing auditReport:init Completed in 0ms
+193 timing reify:audit Completed in 461ms
+194 timing reifyNode:node_modules/mongoose/node_modules/ms Completed in 440ms
+195 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz 531ms (cache miss)
+196 timing reifyNode:node_modules/webidl-conversions Completed in 632ms
+197 http fetch GET 200 https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz 546ms (cache miss)
+198 timing reifyNode:node_modules/memory-pager Completed in 647ms
+199 http fetch GET 200 https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.0.tgz 549ms (cache miss)
+200 timing reifyNode:node_modules/@types/webidl-conversions Completed in 652ms
+201 http fetch GET 200 https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-8.2.2.tgz 528ms (cache miss)
+202 timing reifyNode:node_modules/@types/whatwg-url Completed in 653ms
+203 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz 562ms (cache miss)
+204 timing reifyNode:node_modules/punycode Completed in 669ms
+205 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 547ms (cache miss)
+206 timing reifyNode:node_modules/mquery/node_modules/ms Completed in 671ms
+207 http fetch GET 200 https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz 581ms (cache miss)
+208 timing reifyNode:node_modules/sparse-bitfield Completed in 684ms
+209 http fetch GET 200 https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz 562ms (cache miss)
+210 timing reifyNode:node_modules/mpath Completed in 677ms
+211 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.4.tgz 556ms (cache miss)
+212 timing reifyNode:node_modules/mquery/node_modules/debug Completed in 678ms
+213 http fetch GET 200 https://registry.npmjs.org/ip/-/ip-2.0.0.tgz 582ms (cache miss)
+214 timing reifyNode:node_modules/ip Completed in 691ms
+215 http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 576ms (cache miss)
+216 timing reifyNode:node_modules/ieee754 Completed in 691ms
+217 http fetch GET 200 https://registry.npmjs.org/denque/-/denque-2.1.0.tgz 591ms (cache miss)
+218 timing reifyNode:node_modules/denque Completed in 705ms
+219 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 597ms (cache miss)
+220 timing reifyNode:node_modules/base64-js Completed in 712ms
+221 http fetch GET 200 https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.5.4.tgz 614ms (cache miss)
+222 timing reifyNode:node_modules/mongodb-connection-string-url Completed in 727ms
+223 http fetch GET 200 https://registry.npmjs.org/kareem/-/kareem-2.4.1.tgz 557ms (cache miss)
+224 timing reifyNode:node_modules/kareem Completed in 733ms
+225 http fetch GET 200 https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz 627ms (cache miss)
+226 timing reifyNode:node_modules/saslprep Completed in 769ms
+227 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 674ms (cache miss)
+228 timing reifyNode:node_modules/buffer Completed in 788ms
+229 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-11.0.0.tgz 715ms (cache miss)
+230 timing reifyNode:node_modules/whatwg-url Completed in 821ms
+231 http fetch GET 200 https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz 713ms (cache miss)
+232 timing reifyNode:node_modules/smart-buffer Completed in 824ms
+233 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-3.0.0.tgz 772ms (cache miss)
+234 timing reifyNode:node_modules/tr46 Completed in 882ms
+235 http fetch GET 200 https://registry.npmjs.org/socks/-/socks-2.7.1.tgz 809ms (cache miss)
+236 timing reifyNode:node_modules/socks Completed in 924ms
+237 http fetch GET 200 https://registry.npmjs.org/mquery/-/mquery-4.0.3.tgz 672ms (cache miss)
+238 timing reifyNode:node_modules/mquery Completed in 919ms
+239 http fetch GET 200 https://registry.npmjs.org/sift/-/sift-16.0.0.tgz 804ms (cache miss)
+240 timing reifyNode:node_modules/sift Completed in 920ms
+241 http fetch GET 200 https://registry.npmjs.org/bson/-/bson-4.7.0.tgz 1219ms (cache miss)
+242 timing reifyNode:node_modules/bson Completed in 1342ms
+243 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.8.5.tgz 1512ms (cache miss)
+244 timing reifyNode:node_modules/@types/node Completed in 1627ms
+245 http fetch GET 200 https://registry.npmjs.org/mongoose/-/mongoose-6.6.5.tgz 1787ms (cache miss)
+246 timing reifyNode:node_modules/mongoose Completed in 1991ms
+247 http fetch GET 200 https://registry.npmjs.org/mongodb/-/mongodb-4.9.1.tgz 1852ms (cache miss)
+248 timing reifyNode:node_modules/mongodb Completed in 2007ms
+249 timing reify:unpack Completed in 2028ms
+250 timing reify:unretire Completed in 0ms
+251 timing build:queue Completed in 2ms
+252 timing build:deps Completed in 3ms
+253 timing build Completed in 3ms
+254 timing reify:build Completed in 4ms
+255 timing reify:trash Completed in 0ms
+256 timing reify:save Completed in 112ms
+257 timing reify Completed in 6845ms
+258 silly ADD node_modules/punycode
+259 silly ADD node_modules/webidl-conversions
+260 silly ADD node_modules/tr46
+261 silly ADD node_modules/memory-pager
+262 silly ADD node_modules/smart-buffer
+263 silly ADD node_modules/ip
+264 silly ADD node_modules/sparse-bitfield
+265 silly ADD node_modules/@types/webidl-conversions
+266 silly ADD node_modules/@types/node
+267 silly ADD node_modules/whatwg-url
+268 silly ADD node_modules/@types/whatwg-url
+269 silly ADD node_modules/socks
+270 silly ADD node_modules/saslprep
+271 silly ADD node_modules/mongodb-connection-string-url
+272 silly ADD node_modules/denque
+273 silly ADD node_modules/ieee754
+274 silly ADD node_modules/base64-js
+275 silly ADD node_modules/buffer
+276 silly ADD node_modules/sift
+277 silly ADD node_modules/mquery
+278 silly ADD node_modules/mquery/node_modules/ms
+279 silly ADD node_modules/mquery/node_modules/debug
+280 silly ADD node_modules/mpath
+281 silly ADD node_modules/mongodb
+282 silly ADD node_modules/kareem
+283 silly ADD node_modules/bson
+284 silly ADD node_modules/mongoose
+285 silly ADD node_modules/mongoose/node_modules/ms
+286 timing command:i Completed in 6856ms
+287 verbose exit 0
+288 timing npm Completed in 7864ms
+289 info ok
